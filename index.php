@@ -167,6 +167,7 @@
                                     </div>
 
                                 </div>
+
                                 <div class="col-3">
                                     <div class="imgHolder sm">
                                         <img src="inn/theme_img/first.png" alt="image" />
