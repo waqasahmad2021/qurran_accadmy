@@ -1,0 +1,14 @@
+@media (min-width: 1600px) {
+}
+/* No greater than 1343px, no less than 992px   */
+@media (max-width: 1343px) and (min-width: 1300px) {
+}
+/* No greater than 1343px, no less than 992px   */
+@media (max-width: 1300px) and (min-width: 992px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

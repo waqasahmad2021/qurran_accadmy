@@ -1,0 +1,298 @@
+@import ("style.css");
+
+@font-face {
+  font-family: "29ltbukraregular";
+  src: url("../fonts/29ltbukraregular.ttf");
+}
+
+@font-face {
+  font-family: "29ltbukrabold";
+  src: url("../fonts/29ltbukrabold.ttf");
+}
+
+@font-face {
+  font-family: "29ltbukralight";
+  src: url("../fonts/29ltbukralight.ttf");
+}
+
+@font-face {
+  font-family: "29ltbukrabolditalic";
+  src: url("../fonts/29ltbukrabolditalic.ttf");
+}
+
+:root {
+  --first: #ffffff;
+  --second: #000000;
+  --third: #fed877;
+  --fourth: #dbdbdb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+body {
+  font-family: "29ltbukraregular";
+  color: var(--second);
+}
+
+.header.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+/* Content 
+Section 2 Slider Styel */
+
+.testimony-29101 .text {
+  background-color: #ffffff;
+  padding: 15px 15px;
+  direction: rtl;
+  height: 558px !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 9%;
+  left: 7%;
+  width: auto;
+  max-width: 6%;
+}
+.cust-left-btn {
+  color: var(--first) !important;
+  font-size: 42px !important;
+}
+.cust-left-btn .left-arrow {
+  position: absolute;
+  top: 91%;
+  left: 6%;
+  font-size: 22px !important;
+}
+.cust-right-btn {
+  color: var(--first) !important;
+  font-size: 22px !important;
+}
+.cust-right-btn .right-arrow {
+  position: absolute;
+  top: 145%;
+  left: 50%;
+}
+.slider-right-side-thumnail {
+  position: relative;
+}
+
+/* .slider-right-side-thumnail .overlayHolder {
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 50%);
+  transition: background 0.8s, margin-left 0.8s;
+}
+
+.slider-right-side-thumnail .overlayHolder:hover,
+.slider-right-side-thumnail .overlayHolder:focus {
+  display: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background 0.8s, margin-left 0.8s;
+} */
+
+.slider-right-side-thumnail .thumnail-holder {
+  position: relative;
+}
+
+.slider-right-side-thumnail .thumnail-holder .overlayHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--first);
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.slider-right-side-thumnail .thumnail-holder .overlayHolder:hover,
+.slider-right-side-thumnail .thumnail-holder .overlayHolder:focus {
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  padding-top: 35%;
+  cursor: pointer;
+}
+
+.slider-right-side-thumnail .thumnail-holder .overlayHolder h3 {
+  font-family: "29ltbukralight";
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  line-height: 25px;
+  border-top: 2px solid var(--third);
+  width: 90%;
+  padding-top: 8px;
+}
+
+.slider-right-side-thumnail .thumnail-holder .noOfSlider-holder {
+  position: absolute;
+  top: 22%;
+  right: 0;
+  background-color: var(--first);
+  padding: 2px 12px 2px 4px;
+  font-family: "29ltbukralight";
+  font-size: 14px;
+}
+
+.slider-right-side-thumnail .thumnail-holder .noOfSlider-holder span {
+}
+
+.slider-right-side-thumnail .thumnail-holder a {
+}
+
+.slider-right-side-thumnail .thumnail-holder a img {
+  width: 100%;
+  height: auto;
+  max-height: 186px;
+}
+
+.testimony-29101 .image {
+  height: auto !important;
+  min-height: 558px !important;
+}
+.testimony-29101 .text .date-holder {
+}
+.testimony-29101 .text .date-holder small {
+  font-size: 12px;
+  font-family: "29ltbukrathin";
+}
+.testimony-29101 .text .year-holder {
+}
+.testimony-29101 .text .year-holder small {
+  font-size: 12px;
+  font-family: "29ltbukrathin";
+}
+.testimony-29101 .text .main-title-holder {
+  padding-top: 15px;
+}
+.testimony-29101 .text .main-title-holder h1 {
+  font-size: 22px;
+  font-family: "29ltbukrarebold";
+}
+.testimony-29101 .text .text-holder {
+}
+.testimony-29101 .text .text-holder p {
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: "29ltbukralight";
+}
+.testimony-29101 .text .author-holder {
+}
+.testimony-29101 .text .author-holder span {
+  font-size: 14px;
+}
+.testimony-29101 .text .author-holder span a {
+  border-bottom: 2px dashed var(--fourth);
+  color: var(--second);
+  text-decoration: none;
+  padding-bottom: 4px;
+  font-family: "29ltbukralight";
+}
+.testimony-29101 .text .author-holder span::before {
+  display: block;
+  content: "__";
+  color: var(--third);
+  font-size: 18px;
+}
+
+/*section-3 */
+.content-section-three-holder {
+  position: relative;
+  height: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  /* background: red; */
+}
+.content-section-three-holder .leftBtnHolder {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  z-index: 1;
+}
+.content-section-three-holder .rightBtnHolder {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 1;
+}
+.content-section-three-holder .firstScreen {
+  width: 93.5%;
+  height: auto;
+  min-height: 500px;
+  /* background-color: var(--first); */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content-section-three-holder .firstScreen .imgHolder.lg {
+  padding: 10px;
+}
+.content-section-three-holder .firstScreen .imgHolder.lg img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 500px;
+}
+
+.content-section-three-holder .firstScreen .imgHolder.sm {
+  padding: 10px;
+}
+.content-section-three-holder .firstScreen .imgHolder.sm img {
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+}
+
+.content-section-three-holder .secondScreen {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: red;
+  visibility: hidden;
+}
+.content-section-three-holder .secondScreen .imgHolder.sm {
+  padding: 10px;
+  margin-right: -222px;
+  margin-left: 48%;
+}
+.content-section-three-holder .secondScreen .imgHolder.sm img {
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+}
+
+/* Footer Style */
+.footer {
+  height: 100px;
+}
