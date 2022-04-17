@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    hello
     <section class="header bg-img" style="background-image: url('inn/theme_img/bg_qurran_accadmy.png');">
         <header>
             header
